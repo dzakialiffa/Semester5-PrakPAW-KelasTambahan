@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipe Data Object</title>
+</head>
+<body>
+<script>
+  const orang = {
+    Nama : "Dzaki Moch Fikri Aliffa",
+    Alamat : "Indonesia",
+    Umur: 21
+  };
+  // orang["nama"] = "Dzaki Moch Fikri Aliffa";
+  // orang["alamat"] = "Indonesia";
+  // orang["Gender"] = "Pria";
+  // orang["Umur"] = 21;
+
+  console.info(`Nama : ${orang.Nama}`);
+  console.info(`Alamat : ${orang.Alamat}`);
+  console.info(`Umur : ${orang.Umur}`);
+  console.table(orang);
+
+  delete orang["Umur"];
+
+  console.table(orang);
+
+</script>
+</body>
+</html>
